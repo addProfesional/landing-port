@@ -31,5 +31,12 @@ coverage
 *.tsbuildinfo
 
 # environments
+# === Backend ===
 api/.env
-api/.env*
+api/.env.*
+!api/.env.example
+
+# === Frontend ===
+.env
+.env.*
+!.env.example
