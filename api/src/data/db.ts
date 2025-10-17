@@ -1,5 +1,6 @@
 import { JSONFilePreset } from 'lowdb/node';
 import { join } from 'node:path';
+import { mkdirSync } from 'node:fs'
 import { Config } from '../models/Config.js';
 import { Project } from '../models/Project.js';
 import { Message } from '../models/Message.js';
@@ -16,23 +17,6 @@ type DataMessages = {
   messages : Message[]
 }
 
-const fileConfig = join(process.cwd(), 'db/config.json');
-const dbConfig = await JSONFilePreset<DataConfig>(fileConfig, { config: {} });
-
-const fileProjects = join(process.cwd(), 'db/projects.json');
-const dbProjects = await JSONFilePreset<DataProjects>(fileProjects, { projects: [] });
-
-const fileMessages = join(process.cwd(), 'db/messages.json');
-const dbMessages = await JSONFilePreset<DataMessages>(fileMessages, { messages: [] });
-
-export default {
-  dbConfig,
-  dbProjects,
-  dbMessages
-}
-
-/*
-Mejorar con este código:
 async function initDB<T>(filename: string, defaultData: T) {
   try {
     const dir = join(process.cwd(), 'db')
@@ -49,9 +33,12 @@ async function initDB<T>(filename: string, defaultData: T) {
   }
 }
 
-export const dbConfig = await initDB<DataConfig>('config.json', { config: {} })
-export const dbProjects = await initDB<DataProjects>('projects.json', { projects: [] })
-export const dbMessages = await initDB<DataMessages>('messages.json', { messages: [] })
+const dbConfig = await initDB<DataConfig>('config.json', { config: {} })
+const dbProjects = await initDB<DataProjects>('projects.json', { projects: [] })
+const dbMessages = await initDB<DataMessages>('messages.json', { messages: [] })
 
-export default { dbConfig, dbProjects, dbMessages }
-*/
+export default {
+  dbConfig,
+  dbProjects,
+  dbMessages
+}

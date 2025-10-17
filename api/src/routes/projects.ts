@@ -5,10 +5,13 @@ const dbProjects = db.dbProjects;
 const mainRoute = '/projects';
 
 export default async function userRoutes(app: FastifyInstance) {
-  app.get(mainRoute, async () => {
-    console.log('GET /projects endpoint hit');
-    await dbProjects.read();
-    console.log('dbProjects.data: ', dbProjects.data);
-    return dbProjects.data?.projects || [];
+  app.get(mainRoute, async (req, reply) => {
+    try {
+      await dbProjects.read(); // leer versión más reciente
+      return dbProjects.data?.projects || [];
+    } catch (err) {
+      console.error('❌ Error leyendo projects:', err)
+      reply.status(500).send({ error: 'Error al leer proyectos' })
+    }
   });
 }
