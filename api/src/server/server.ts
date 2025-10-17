@@ -4,6 +4,7 @@ import helmet from '@fastify/helmet';
 
 //Routes
 import rootRoutes from '../routes/root.js';
+import configRoutes from '../routes/config.js';
 
 const app = Fastify();
 
@@ -15,5 +16,6 @@ app.register(helmet);
 
 //Register routes
 app.register(rootRoutes);
+app.register(configRoutes);
 
 export default app;

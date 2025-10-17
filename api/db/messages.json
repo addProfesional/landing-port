@@ -1,0 +1,30 @@
+{
+  "messages":[
+    {
+      "id": 0,
+      "title": "Mensaje 1",
+      "msj": "Este es un mensaje de prueba",
+      "type": "contact",
+      "emailRequester": "juan@contoso.com",
+      "createdAt": "",
+      "company": "Contoso S.A",
+      "phone": "8888888888",
+      "country": "MX",
+      "state": "Pue",
+      "name": "Juan Perez"
+    },
+    {
+      "id": 1,
+      "title": "Mensaje 2",
+      "msj": "Este es otro mensaje de prueba",
+      "type": "contact",
+      "emailRequester": "juan@contoso.com",
+      "createdAt": "",
+      "company": "Contoso S.A",
+      "phone": "8888888888",
+      "country": "MX",
+      "state": "Pue",
+      "name": "Juan Perez2"
+    }
+  ]
+}

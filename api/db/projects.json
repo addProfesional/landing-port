@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "name": "Proyecto 1",
+      "description": "Descripción del proyecto 1",
+      "categories": [ "Frontend", "Backend" ],
+      "demo": "https://demo.io",
+      "github": "https://github.com/proyecto_1",
+      "video": null,
+      "images": [
+        "img1",
+        "img2"
+      ],
+      "createdAt": "",
+      "modified": [
+        ""
+      ],
+      "status": "enabled",
+      "files":[
+        ""
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Proyecto 2",
+      "description": "Descripción del proyecto 2",
+      "categories": [ "Frontend", "Backend" ],
+      "demo": "https://demo2.io",
+      "github": "https://github.com/proyecto_2",
+      "video": null,
+      "images": [
+        "img1",
+        "img2"
+      ],
+      "createdAt": "",
+      "modified": [
+        ""
+      ],
+      "status": "enabled",
+      "files":[
+        ""
+      ]
+    }
+    
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "config":{
+    "lang": "es",
+    "theme": "dark",
+    "users": ["admin", "public"],
+    "showMode": ["static"],
+    "enableContactForm": true,
+    "contexts": [
+      { "name" : "FullStack", "enable": true },
+      { "name" : "Backend", "enable": true },
+      { "name" : "Frontend", "enable": true },
+      { "name" : "Mobile", "enable": false },
+      { "name" : "Cibersecurity", "enable": false },
+      { "name" : "Customers", "enable": false },
+      { "name" : "IoT", "enable": false },
+      { "name" : "Experiments", "enable": false }
+    ],
+    "providers": [
+      { "name": "cloudfare", "enable": false }
+    ]
+  }
+}
