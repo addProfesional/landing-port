@@ -2,9 +2,8 @@ import type { App } from 'vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-// Importa los íconos que quieras usar globalmente
+// Solo iconos que realmente necesites globalmente (si los hay)
 import {
-  faSun,
   faEnvelope,
   faUser,
   faCodeBranch,
@@ -17,9 +16,8 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 
-// Agrega todos a la librería global
+// Agrega solo iconos globales
 library.add(
-  faSun,
   faEnvelope,
   faUser,
   faCodeBranch,
