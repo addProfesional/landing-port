@@ -7,6 +7,7 @@ export function useTheme() {
     storageKey: 'theme-preference', // se guarda en localStorage
     valueDark: 'dark',
     valueLight: '',
+    initialValue: 'dark' // 🌙 Dark mode por defecto
   })
 
   const toggleTheme = useToggle(isDark)
