@@ -1,0 +1,143 @@
+@layer base {
+  :root {
+    /* ===================
+       PALETA PRINCIPAL 
+       =================== */
+    
+    /* Night palette - Negro azulado profundo */
+    --color-night: #0D0F13;
+    --color-night-50: #c6ccd8;
+    --color-night-100: #8d99b1;
+    --color-night-200: #5a6884;
+    --color-night-300: #333b4b;
+    --color-night-400: #0a0b0f;
+    --color-night-500: #0d0f13;
+    --color-night-600: #07090b;
+    --color-night-700: #050607;
+    --color-night-800: #020304;
+    --color-night-900: #020304;
+    
+    /* Gunmetal palette - Azul grisáceo */
+    --color-gunmetal: #1D2731;
+    --color-gunmetal-50: #c8d4df;
+    --color-gunmetal-100: #92a8bf;
+    --color-gunmetal-200: #5c7d9d;
+    --color-gunmetal-300: #3c5267;
+    --color-gunmetal-400: #171f27;
+    --color-gunmetal-500: #1d2731;
+    --color-gunmetal-600: #11171d;
+    --color-gunmetal-700: #0b0f13;
+    --color-gunmetal-800: #06080a;
+    --color-gunmetal-900: #06080a;
+    
+    /* Rich Black palette - Negro azulado medio */
+    --color-rich-black: #121A20;
+    --color-rich-black-50: #c4d3de;
+    --color-rich-black-100: #89a7bd;
+    --color-rich-black-200: #547a96;
+    --color-rich-black-300: #334a5b;
+    --color-rich-black-400: #0f151a;
+    --color-rich-black-500: #121a20;
+    --color-rich-black-600: #0b1014;
+    --color-rich-black-700: #070b0d;
+    --color-rich-black-800: #040507;
+    --color-rich-black-900: #040507;
+    
+    /* Davy Gray palette - Gris neutro */
+    --color-davy-gray: #585E65;
+    --color-davy-gray-50: #dddfe1;
+    --color-davy-gray-100: #babec3;
+    --color-davy-gray-200: #989ea5;
+    --color-davy-gray-300: #767e87;
+    --color-davy-gray-400: #464b51;
+    --color-davy-gray-500: #585e65;
+    --color-davy-gray-600: #35383d;
+    --color-davy-gray-700: #232628;
+    --color-davy-gray-800: #121314;
+    --color-davy-gray-900: #121314;
+    
+    /* Lapis Lazuli palette - Azul vibrante */
+    --color-lapis: #296587;
+    --color-lapis-50: #cce3ef;
+    --color-lapis-100: #9ac6e0;
+    --color-lapis-200: #67aad0;
+    --color-lapis-300: #3a8cbb;
+    --color-lapis-400: #22516d;
+    --color-lapis-500: #296587;
+    --color-lapis-600: #193d52;
+    --color-lapis-700: #112937;
+    --color-lapis-800: #08141b;
+    --color-lapis-900: #08141b;
+
+    /* ===================
+       PALETAS ADICIONALES 
+       =================== */
+    
+    /* Success - Verde esmeralda */
+    --color-success: #10B981;
+    --color-success-50: #ecfdf5;
+    --color-success-100: #d1fae5;
+    --color-success-200: #a7f3d0;
+    --color-success-300: #6ee7b7;
+    --color-success-400: #34d399;
+    --color-success-500: #10b981;
+    --color-success-600: #059669;
+    --color-success-700: #047857;
+    --color-success-800: #065f46;
+    --color-success-900: #064e3b;
+    
+    /* Warning - Ámbar */
+    --color-warning: #F59E0B;
+    --color-warning-50: #fffbeb;
+    --color-warning-100: #fef3c7;
+    --color-warning-200: #fde68a;
+    --color-warning-300: #fcd34d;
+    --color-warning-400: #fbbf24;
+    --color-warning-500: #f59e0b;
+    --color-warning-600: #d97706;
+    --color-warning-700: #b45309;
+    --color-warning-800: #92400e;
+    --color-warning-900: #78350f;
+    
+    /* Error - Rojo coral */
+    --color-error: #EF4444;
+    --color-error-50: #fef2f2;
+    --color-error-100: #fee2e2;
+    --color-error-200: #fecaca;
+    --color-error-300: #fca5a5;
+    --color-error-400: #f87171;
+    --color-error-500: #ef4444;
+    --color-error-600: #dc2626;
+    --color-error-700: #b91c1c;
+    --color-error-800: #991b1b;
+    --color-error-900: #7f1d1d;
+
+    /* ===================
+       TECNOLOGÍAS 
+       =================== */
+    
+    /* JavaScript */
+    --color-javascript: #F7DF1E;
+    --color-javascript-dark: #8B8000;
+    
+    /* TypeScript */
+    --color-typescript: #3178C6;
+    --color-typescript-light: #7CB9E8;
+    
+    /* Vue.js */
+    --color-vue: #4FC08D;
+    --color-vue-dark: #2F5233;
+    
+    /* React */
+    --color-react: #61DAFB;
+    --color-react-dark: #20232A;
+    
+    /* Node.js */
+    --color-nodejs: #339933;
+    --color-nodejs-dark: #1F5F1F;
+    
+    /* Python */
+    --color-python: #3776AB;
+    --color-python-yellow: #FFD43B;
+  }
+}

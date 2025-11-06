@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-// Importar iconos específicos del Header
 import { faCube, faSun, faMoon, faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 // Theme toggle state (sin lógica por ahora)
